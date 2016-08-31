@@ -1,0 +1,33 @@
+{
+  "name": "simplequery",
+  "version": "1.0.0",
+  "description": "This is a simple query application similar to real query.",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/forward09/simplequery.git"
+  },
+  "keywords": [
+    "SimpleQuery"
+  ],
+  "author": "Winfred Xu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/forward09/simplequery/issues"
+  },
+  "homepage": "https://github.com/forward09/simplequery#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "errorhandler": "^1.4.3",
+    "express": "^4.14.0",
+    "jade": "^1.11.0",
+    "method-override": "^2.3.6",
+    "mongodb": "^2.2.9",
+    "mongoskin": "^2.1.0",
+    "morgan": "^1.7.0"
+  }
+}
