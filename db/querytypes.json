@@ -1,0 +1,19 @@
+[
+    {
+        "QueryName": "VehicleQuery",
+        "RequestFields": {
+            "LicensePlateNumber": "Plate",
+            "LicensePlateYear": "Year",
+            "VehicleModel": "Model"
+        }
+    },
+    {
+        "QueryName": "PersonQuery",
+        "RequestFields": {
+            "FirstName": "FirstName",
+            "MiddleName": "MiddleName",
+            "LastName": "LastName",
+            "Cellphone": "Cellphone"
+        }
+    }
+]

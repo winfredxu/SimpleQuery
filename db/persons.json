@@ -1,0 +1,62 @@
+[
+    {
+        "FirstName": "Winfred",
+        "MiddleName": "",
+        "LastName": "Xu",
+        "Id": "T01907",
+        "PersonInfo": {
+            "DOB": "1900-1-1",
+            "Gender": "Male",
+            "JobTitle": "Engineer",
+            "Weight": 130,
+            "Photo": "a.jpg"
+        },
+        "ContactInfo": {
+            "HomeAddress": "益江路299弄",
+            "BusinessAddress": "郭守敬路498号",
+            "Cellphone": "18616806791",
+            "Email": "winfred.xu@augmentum.com",
+            "Wechat": "297281621"
+        }
+    },
+    {
+        "FirstName": "Carlos",
+        "MiddleName": "",
+        "LastName": "Sun",
+        "Id": "T02817",
+        "PersonInfo": {
+            "DOB": "1901-1-1",
+            "Gender": "Male",
+            "JobTitle": "Engineer",
+            "Weight": 180,
+            "Photo": "b.jpg"
+        },
+        "ContactInfo": {
+            "HomeAddress": "玉兰香苑",
+            "BusinessAddress": "郭守敬路498号",
+            "Cellphone": "15026952160",
+            "Email": "carlossun@augmentum.com.cn",
+            "Wechat": "XXXXXXXX"
+        }
+    },
+    {
+        "FirstName": "Bruce",
+        "MiddleName": "",
+        "LastName": "Yuan",
+        "Id": "YT00332",
+        "PersonInfo": {
+            "DOB": "1902-1-1",
+            "Gender": "Male",
+            "JobTitle": "Engineer",
+            "Weight": 190,
+            "Photo": "c.jpg"
+        },
+        "ContactInfo": {
+            "HomeAddress": "玉兰香苑",
+            "BusinessAddress": "郭守敬路498号",
+            "Cellphone": "18616806791",
+            "Email": "bruceyuan@augmentum.com.cn",
+            "Wechat": "bruce"
+        }
+    }
+]

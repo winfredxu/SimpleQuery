@@ -1,0 +1,38 @@
+[
+    {
+        "LicensePlate": "苏M-GF597",
+        "VehicleYear": "2012",
+        "VehicleMake": "Ford",
+        "VehicleModel": "Focus",
+        "DetailedInfo":{
+            "State":"江苏",
+            "Color": "White",
+            "VIN":"ABC123",
+            "Owner":"Winfred Xu"
+        }
+    },
+    {
+        "LicensePlate": "沪A-000001",
+        "VehicleYear": "2015",
+        "VehicleMake": "BMW",
+        "VehicleModel": "320i",
+        "DetailedInfo":{
+            "State":"上海",
+            "Color": "Black",
+            "VIN":"Goverment",
+            "Owner":"Major of Shanghai"
+        }
+    },
+    {
+        "LicensePlate": "沪B-000002",
+        "VehicleYear": "2016",
+        "VehicleMake": "BYD",
+        "VehicleModel": "F6",
+        "DetailedInfo":{
+            "State":"上海",
+            "Color": "Yellow",
+            "VIN":"STUPIDGUY",
+            "Owner":"Bad People"
+        }
+    }
+]
