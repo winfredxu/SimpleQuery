@@ -3,21 +3,23 @@ var fs = require('fs');
 var MongoClient = mongodb.MongoClient;
 var url = 'mongodb://localhost:27017/simplequery';
 
-fs.readFile('./db/querytypes.json', function(error, data){
-    if(error) throw error;
+exports.insertquerytypes = function () {
+    fs.readFile('./db/querytypes.json', function (error, data) {
+        if (error) throw error;
 
-    MongoClient.connect(url, function(err, db){
-        if(err) throw err;
+        MongoClient.connect(url, function (err, db) {
+            if (err) throw err;
 
-        db.collection('querytypes').insertMany(JSON.parse(data), function(er, result){
-            if(er) throw er;
+            db.collection('querytypes').insertMany(JSON.parse(data), function (er, result) {
+                if (er) throw er;
 
-            console.info(result);
+                console.info(result);
 
-            db.close();
+                db.close();
+            })
         })
     })
-})
+}
 
 /*
 MongoClient.connect(url, function(err, db){
