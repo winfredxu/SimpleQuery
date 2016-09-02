@@ -58,5 +58,25 @@
             "Email": "bruceyuan@augmentum.com.cn",
             "Wechat": "bruce"
         }
+    },
+    {
+        "FirstName": "BadBruce",
+        "MiddleName": "",
+        "LastName": "Yuan",
+        "Id": "YT00332",
+        "PersonInfo": {
+            "DOB": "1902-1-1",
+            "Gender": "Male",
+            "JobTitle": "Engineer",
+            "Weight": 190,
+            "Photo": "c.jpg"
+        },
+        "ContactInfo": {
+            "HomeAddress": "玉兰香苑",
+            "BusinessAddress": "郭守敬路498号",
+            "Cellphone": "18616806791",
+            "Email": "bruceyuan@augmentum.com.cn",
+            "Wechat": "bruce"
+        }
     }
 ]

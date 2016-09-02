@@ -3,7 +3,7 @@ var MongoClient = mongodb.MongoClient;
 var fs = require('fs');
 var dburl = process.env.MONGOHQ_URL || "mongodb://localhost:27017/simplequery";
 
-fs.readFile(__dirname + '/db/'+ 'vehicles.json', function(error, data){
+fs.readFile('./db/'+ 'vehicles.json', function(error, data){
     if(error) throw error;
 
     MongoClient.connect(dburl, function(err, db){

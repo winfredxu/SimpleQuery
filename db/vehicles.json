@@ -1,9 +1,9 @@
 [
     {
-        "LicensePlate": "苏M-GF597",
-        "VehicleYear": "2012",
+        "Plate": "苏M-GF597",
+        "Year": "2012",
         "VehicleMake": "Ford",
-        "VehicleModel": "Focus",
+        "Model": "Focus",
         "DetailedInfo":{
             "State":"江苏",
             "Color": "White",
@@ -12,10 +12,10 @@
         }
     },
     {
-        "LicensePlate": "沪A-000001",
-        "VehicleYear": "2015",
+        "Plate": "沪A-000001",
+        "Year": "2015",
         "VehicleMake": "BMW",
-        "VehicleModel": "320i",
+        "Model": "320i",
         "DetailedInfo":{
             "State":"上海",
             "Color": "Black",
@@ -24,10 +24,10 @@
         }
     },
     {
-        "LicensePlate": "沪B-000002",
-        "VehicleYear": "2016",
+        "Plate": "沪B-000002",
+        "Year": "2016",
         "VehicleMake": "BYD",
-        "VehicleModel": "F6",
+        "Model": "F6",
         "DetailedInfo":{
             "State":"上海",
             "Color": "Yellow",
