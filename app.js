@@ -31,6 +31,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));
 
 app.get('/api/querytypes', routes.querytype.list);
+app.post('/api/queryrequest', routes.queryrequest.sendRequest);
 
 app.all("*", function(req, res){
     res.send('404');
