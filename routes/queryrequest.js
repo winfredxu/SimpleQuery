@@ -9,7 +9,12 @@ exports.sendRequest = function(req, res, next){
            var queryCriteria = {};
            for(requestField in queryRequestJSON.RequestData){
                if(queryRequestJSON.RequestData[requestField] != ''){
-                   queryCriteria[requestField] = queryRequestJSON.RequestData[requestField];
+                   if(requestField != 'Cellphone'){
+                       queryCriteria[requestField] = queryRequestJSON.RequestData[requestField];
+                   }
+                   else{
+                       queryCriteria["ContactInfo.Cellphone"] = queryRequestJSON.RequestData[requestField];;
+                   }
                }
            }
 
